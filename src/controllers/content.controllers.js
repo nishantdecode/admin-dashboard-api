@@ -1,6 +1,6 @@
-// const HttpError = require("../helpers/HttpError.helpers");
-// const Response = require("../helpers/Response.helpers");
-// const { ContentService } = require("../services/content.service");
+const HttpError = require("../helpers/HttpError.helpers");
+const Response = require("../helpers/response.helpers");
+const { ContentService } = require("../services/content.service");
 
 class ContentController {
   

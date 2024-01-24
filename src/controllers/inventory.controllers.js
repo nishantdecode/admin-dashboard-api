@@ -1,5 +1,5 @@
-// const HttpError = require("../helpers/HttpError.helpers");
-// const Response = require("../helpers/Response.helpers");
+const HttpError = require("../helpers/HttpError.helpers");
+const Response = require("../helpers/response.helpers");
 // const { InventoryService } = require("../services/inventory.service");
 
 class InventoryController {

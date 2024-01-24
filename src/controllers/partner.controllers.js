@@ -1,6 +1,6 @@
-// const HttpError = require("../helpers/HttpError.helpers");
-// const Response = require("../helpers/Response.helpers");
-// const { PartnerService } = require("../services/partner.service");
+const HttpError = require("../helpers/HttpError.helpers");
+const Response = require("../helpers/response.helpers");
+const { PartnerService } = require("../services/partner.service");
 
 class PartnerController {
 

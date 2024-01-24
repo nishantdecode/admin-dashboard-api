@@ -1,11 +1,15 @@
-// const HttpError = require("../helpers/HttpError.helpers");
-// const Response = require("../helpers/Response.helpers");
-// const { DashboardService } = require("../services/dashboard.service");
+const HttpError = require("../helpers/HttpError.helpers");
+const Response = require("../helpers/response.helpers");
+const { UserService } = require("../services/user.service");
+const { PartnerService } = require("../services/partner.service");
+const { OrderService } = require("../services/order.service");
+const { AppointmentService } = require("../services/appointment.service");
 
 class DashboardController {
 
     getAllClients = async (req, res) => {
       console.info("ALL CLIENTS");
+      res.send();
     };
   
     getEarningStats = async (req, res) => {

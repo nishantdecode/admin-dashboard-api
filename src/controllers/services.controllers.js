@@ -1,6 +1,6 @@
-// const HttpError = require("../helpers/HttpError.helpers");
-// const Response = require("../helpers/Response.helpers");
-// const { ServicesService } = require("../services/services.service");
+const HttpError = require("../helpers/HttpError.helpers");
+const Response = require("../helpers/response.helpers");
+const { ServiceService } = require("../services/service.service");
 
 class ServicesController {
 
